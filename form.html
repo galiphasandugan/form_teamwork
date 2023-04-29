@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <!-- neden form icinde yazariz? botlarin algilamasi icin. Main neden yazariz.Main demek, sayfanin ana yapisi demektir. Label yazilmissa muhtemelen INPUT vardir. ama p etiketinde input olmuyor. Form etiketi..... -->
+    <main>
+      <h2>Registration Form</h2>
+      <form action="" method="post">
+        <section>
+          <label for="name">First name:</label>
+          <input type="text" id="name" name="Firstname" value="" />
+        </section>
+        <section>
+          <label for="lastname">Last name:</label>
+          <input type="text" id="lastname" name="lastname" value="" />
+        </section>
+        <section>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="emmail" value="" />
+        </section>
+        <section>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" value="" />
+        </section>
+        <section>
+          <label for="dob">Date of Birth:</label>
+          <input type="text" id="dob" name="dob" value="" />
+        </section>
+        <section>
+          <label for="Gender" id="gen"
+            >Gender:
+            <section>
+              <input type="radio" name="gender" id="gender" />male
+              <input type="radio" name="gender" id="gender" />female
+            </section>
+          </label>
+        </section>
+        <section>
+          <label for="tel">Mobile:</label>
+          <input type="tel" id="tel" name="mobile" value="" />
+        </section>
+        <section class="button">
+          <input type="submit" value="SUBMIT" />
+          <input type="reset" value="CLEAR" />
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
